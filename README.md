@@ -6,14 +6,14 @@
 <p>The project is aimed at developing a Android Studio App for the annual festival AnimaSyros that takes place in Syros island. It serves as an assignment for the course "Design and Programming of Mobile Applications" of the Department of Products and Systems Engineering of Aegean University.</p>
 
 <p>That app has:
- * Splash Screen
- * OnBoarding Screen
- * Fragments
- * Custom toolbar
- * Navigation bar
- * Custom CalendarView
- * Open Street Maps Library
- * listview
+  * Splash Screen
+  * OnBoarding Screen
+  * Fragments
+  * Custom toolbar
+  * Navigation bar
+  * Custom CalendarView
+  * Open Street Maps Library
+  * listview
 
  # Sources
  <p><a href="https://www.youtube.com/watch?v=RYWMkin2YgQ">Splash Screen</a></p>
