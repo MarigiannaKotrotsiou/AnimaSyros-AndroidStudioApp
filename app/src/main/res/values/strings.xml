@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">AnimaSyros2022</string>
+
+    <!--    string gia to onboarding-->
+    <string name="headOb1">2022</string>
+    <string name="headOb2">Προβολές</string>
+    <string name="headOb3">Εκδηλώσεις</string>
+    <string name="headOb4">Αγαπημένα</string>
+    <string name="descOb">Καλώς ορίσατε στο Anima Syros, το μεγαλύτερο Διεθνές Φεστιβάλ Κινουμένων Σχεδίων στην Ελλάδα</string>
+    <string name="descOb2">Ανακαλύψτε τον κόσμο του ανιμέισον βλέποντας τις προβολές μας.</string>
+    <string name="descOb3">Μάθαιτε για τα εκπαιδευτικά προγράμματα, τις ομιλίες και τα workshop που λαμβάνουν χώρα κατά την διάρκεια του φεστιβάλ.</string>
+    <string name="descOb4">Αποθηκεύστε τις αγαπημένες σας εκδηλώσεις ωστε να μην χάσετε τίποτα!</string>
+
+    <!--    string gia to about us, calendar, search-->
+
+    <string name="aboutus_text">Το ANIMASYROS, το μεγαλύτερο Διεθνές Φεστιβάλ Κινουμένων Σχεδίων στην Ελλάδα και ένα από τα μεγαλύτερα της Ευρώπης, ξεκίνησε το ταξίδι του στον κόσμο του ανιμέισον τον Σεπτέμβριο του 2008 στη Σύρο και από τότε δίνει ραντεβού κάθε Σεπτέμβριο στην πρωτεύουσα των Κυκλάδων, έχοντας υποδεχτεί μέχρι σήμερα περισσότερους από 104.000 μοναδικούς θεατές. \n\nΗ ετήσια διοργάνωση του ANIMASYROS διαρθρώνεται σε τρεις βασικούς πυλώνες, το καλλιτεχνικό πρόγραμμα, τα εκπαιδευτικά προγράμματα και την Αγορά, ενώ δεν λείπουν οι παράλληλες δράσεις, όπως εκθέσεις, συναυλίες και πάρτι. \n\nΤο ANIMASYROS ξεκίνησε ως μια πρωτοβουλία της Αστικής Εταιρείας μη Κερδοσκοπικού Χαρακτήρα «ΠΛΑΤΦΟΡΜΑ-Εταιρία Αστικού Πολιτισμού», για την ανάδειξη και την προώθηση της κινηματογραφικής τέχνης της εμψύχωσης στο κοινό, στοχεύοντας ταυτόχρονα στη θεμελίωση και τη διατήρηση ενός δημιουργικού πυρήνα συνάντησης και δικτύωσης των καλλιτεχνών και επαγγελματιών του χώρου του ανιμέισον σε πανευρωπαϊκό και διεθνές επίπεδο.
+</string>
+    <string name="txt_calendar">Επέλεξε μέρα για να δεις όλες τις εκδηλώσεις</string>
+    <string name="txt_search">Σε ενδιαφέρει κάτι συγκεκριμένο? \nΑναζήτησε το!</string>
+    <string name="search_description">Ο ΑnimaSpyros θα σε βοηθήσει να βρεις αυτό που ψάχνεις</string>
+
+    <!--    ta disclaimers gia ta events-->
+
+    <string name="disclaimer1">Λόγω περιορισμένων θέσεων στο Θέατρο Απόλλων σας συστήνουμε να κλείσετε προκαταβολικά τη θέση σας δωρεάν μέσω Eventbrite</string>
+    <string name="disclaimer2">Είσοδος μόνο στους συμμετέχοντες του Pitching Forum</string>
+    <string name="disclaimer3">Τα εκπαιδευτικά προγράμματα για ενήλικες και για εφήβους πραγματοποιούνται στα αγγλικά</string>
+    <string name="disclaimer4">Όλες οι δραστηριότητες της Αγοράς πραγματοποιούνται με φυσική παρουσία στο Πνευματικό Κέντρο Ερμούπολης και αναμεταδίδονται ζωντανά στο κανάλι του φεστιβάλ στο youTube</string>
+
+
+    <!--    title ton event-->
+    <string name="provoli1">ΔΙΕΘΝΕΣ ΠΑΝΟΡΑΜΑ ΙΙ</string>
+    <string name="provoli2">ΑΦΙΕΡΩΜΑ NORWAY CALLING</string>
+    <string name="provoli3">ΤΗΛΕΟΠΤΙΚΕΣ &amp; ΚΑΤΑ ΠΑΡΑΓΓΕΛΙΑ ΤΑΙΝΙΕΣ Ι</string>
+    <string name="provoli4">ΣΧΟΛΙΚΉ ΠΡΟΒΟΛΗ</string>
+    <string name="provoli5">ΦΟΙΤΗΤΙΚΟ ΔΙΑΓΩΝΙΣΤΙΚΌ ΤΜΗΜΑ Ι</string>
+    <string name="provoli6">ΕΙΔΙΚΗ ΠΡΟΒΟΛΗ</string>
+
+    <string name="agora1">PITCHING FORUM:NEF ANIMATION WORKSHOP</string>
+    <string name="agora2">ΕΡΓΑΣΤΗΡΙΟ ΓΙΑ ΕΦΗΒΟΥΣ</string>
+    <string name="agora3">AGORA ΠΑΡΟΥΣΙΑΣΕΙΣ ΚΑΙ ΣΥΖΗΤΗΣΕΙΣ</string>
+    <string name="agora4">ΣΥΖΗΤΗΣΗ ROUNDTABLE</string>
+
+    <string name="educational1">ΕΡΓΑΣΤΗΡΙΟ ΓΙΑ ΑΤΟΜΑ ΜΕ ΑΝΑΠΗΡΙΕΣ</string>
+    <string name="educational2">ΕΡΓΑΣΤΗΡΙΟ ΓΙΑ ΑΤΟΜΑ ΤΡΙΤΗΣ ΗΛΙΚΙΑΣ</string>
+
+
+    <string name="paralel1">ΚΙΝΗΜΑΤΟΓΡΑΦΟΣ ΕΡΜΗΣ</string>
+
+    <!--    details gia ta events-->
+    <string name="provolidet1">Θα προβληθούν οι παρακάτω ταινίες μικρού μήκους: \n\nThank You For Your Teeth! (RO, 2’30”) \nA Guitar In The Bucket (KR, 14’51”) \nLulu The Pill-Man (FR, 3’55”) \nBear Hug (FR, 10’33”) \nDAMN IT! (DE, 1’09”) \nLoop (ES, 8’)\nThings That Disappear (KR, 10’30”)\nHysteresis (DE, 5’05”) \nDies Irae (AU, 7’37”) \nPig (NL, 8’17”) \nKuumba Umbo / Birth Of Form (BE, 6’39”) \nSomething In The Garden (CL, 6’)\nMr Practical (PL, 10’)
+</string>
+    <string name="provolidet2">
+Θα προβληθούν οι παρακάτω ταινίες μικρού μήκους: \n\nFarce (NO, 11’)\nLittle Boy (NO, 5’20”)\nMother Didn\'t Know (NO, 11’)\nNight Of The Living Dread (GB, 11’30”)\nPearl Diver (NO, 9’)\nThe Absence Of Eddy Table (NO, 12’)
+</string>
+    <string name="provolidet3">Θα προβληθούν οι παρακάτω ταινίες μικρού μήκους:\n\nLinoleum 2021: Presence, Intimacy, Touch (UA, 0’36”)\nBinaryGenderNorm: Girls (CL, 2’47”)\nBientot la Lumiere (FR, 4’24”)\nCount At The Cinema (HU, 0’56”)\nHidden Heroes (DE, 2’05”)\nShaina Taub - The Last Song On Earth (US, 3’31”)\nPSSY (US, 1’17”)\nRainbow Machine (CH, 5’11”)\nThe Great World Of Gregory Blackstock (US, 10’39”)\nUnder The Influence - Let\'s Break The Silence (CH, 4’11”)\nUnsung Women - Ida Pfeiffer (FR, 3’08”)\nTwo Little Birds (UY, 3’30”)\nThe Smile - Thin Thing (CL, 4’38”)</string>
+    <string name="provolidet4">Θα προβληθούν οι παρακάτω ταινίες μικρού μήκους: \n\nNikitaras Immortal!!! (GR, 6’49”)\nCaptain Morten and the Spider Queen (EE/BE/Ireland/GB, 80’)
+</string>
+    <string name="provolidet5">Θα προβληθούν οι παρακάτω ταινίες μικρού μήκους: \n\nCycle (CY, 5’26”)\nSmall Hours (IE, 5’)\n1x1x1 (GB, 5’40”)\nAt Spiral\'s End (CZ, 4’27”)\nCarried Away (IL, 4’)\nMaman, Il A Quoi Le Chien? (FR, 7’09”)\nGirl In The Water (TW, 7’20”)\nGraziano And The Giraffe (IT, 6’33”)\nSoft Animals (US, 3’02”)\nToo Late (PL, 15’34”)\nSomber (FR, 6’26”)\nThe House Of Loss (JP, 9’34”)\nThe Statue (Peykareh) (IR, 9’30”)\nTwo Of Us (HU, 4’18’’)
+</string>
+    <string name="provolidet6">Θα προβληθούν οι παρακάτω ταινίες μικρού μήκους: \n\nBuñuel in the Labyrinth of the Turtles (ES/NL/DE, 80’)</string>
+
+    <string name="agoradet1">Συμμετάσχωντες: \nXavier Kawa-Topor (FR) \nCatherine Totems (FR)
+</string>
+    <string name="agoradet2">Θεματική: \nΖωντανεύοντας το παρελθόν \n\nΣυμμετάσχωντες: \nPaul Muresan (RO)
+</string>
+    <string name="agoradet3">kati den kserw</string>
+    <string name="agoradet4">GRAPHIC NOVELS TO ANIMATED FILMS \nΉλίας Κατιρτζιγιανόγλου \nMarlyn Spaaij (NL), \nTigran Arakelyan (AM) \nFermin Solis (ES) \n10’ Q&amp;A
+</string>
+
+    <string name="educationaldet1">Θεματική: \nΦαντάσου έναν καλύτερο κόσμο \n\nΣυμμετάσχωντες: \nΈλενα Παυλάκη(GR)
+</string>
+    <string name="educationaldet2">Γράμμα από το παρελθόν - Μαργαρίτα Σιμοπούλου (GR)</string>
+
+    <string name="paraleldet1">Παρουσιάζοντας τον Κιν/φο Ερμή</string>
+
+
+</resources>

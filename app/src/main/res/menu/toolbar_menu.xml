@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/ic_menu"
+        android:title=""
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/menu_profil"
+                android:icon="@drawable/ic_profil"
+                android:title="Προφίλ"
+            />
+
+            <item
+                android:id="@+id/menu_language"
+                android:icon="@drawable/ic_language"
+                android:title="Γλώσσα"
+                />
+
+            <item
+                android:id="@+id/menu_terms"
+                android:icon="@drawable/ic_terms"
+                android:title="Όροι χρήσης"
+                />
+
+            <item
+                android:id="@+id/menu_signout"
+                android:icon="@drawable/ic_logout"
+                android:title="Αποσύνδεση"
+                />
+        </menu>
+    </item>
+</menu>

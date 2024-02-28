@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="-8dp"
+    tools:layout_editor_absoluteY="0dp"
+    android:background="@color/main">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout"
+        android:layout_width="350dp"
+        android:layout_height="82dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_aboutus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:menu="@menu/toolbar_menu" />
+
+    <ImageView
+        android:id="@+id/redcirclehome"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/red_circle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bluecirclehome"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="196dp"
+        android:src="@drawable/blue_circle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgspyros" />
+
+    <ImageView
+        android:id="@+id/imgspyros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="92dp"
+        android:src="@drawable/anima_spyros"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_program"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Πρόγραμμα"
+        android:textAllCaps="false"
+        android:textColor="@color/secondary"
+        app:layout_constraintStart_toEndOf="@+id/imgspyros"
+        app:layout_constraintTop_toBottomOf="@+id/btn_aboutus" />
+
+    <Button
+        android:id="@+id/btn_sponsors"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Συνεργάτες"
+        android:textAllCaps="false"
+        android:textColor="@color/secondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btn_contact"
+        app:layout_constraintTop_toBottomOf="@+id/btn_contact"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Επικοινωνία"
+        android:textAllCaps="false"
+        android:textColor="@color/secondary"
+        app:layout_constraintStart_toEndOf="@+id/imgspyros"
+        app:layout_constraintTop_toBottomOf="@+id/btn_program" />
+
+    <Button
+        android:id="@+id/btn_aboutus"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Σχετικά με εμάς"
+        android:textAllCaps="false"
+        android:textColor="@color/secondary"
+        app:layout_constraintStart_toStartOf="@+id/btn_program"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/redlinehome"
+        android:layout_width="310dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:src="@drawable/red_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sponsors" />
+
+    <TextView
+        android:id="@+id/txtHighlights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:letterSpacing="0.2"
+        android:text="Highlights"
+        android:textColor="@color/secondary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sponsors" />
+
+    <HorizontalScrollView
+        android:id="@+id/hrzScroll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/redlinehome">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgHigh1"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/highlights1"
+                app:shapeAppearanceOverlay="@style/roundimageview"/>
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgHigh2"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/highlights2"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgHigh3"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/highlights3"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgHigh4"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/highlights4"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgHigh5"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/highlights5"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/bluelinehome"
+        android:layout_width="310dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hrzScroll1"
+        app:srcCompat="@drawable/blue_box" />
+
+    <TextView
+        android:id="@+id/txtParalel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:letterSpacing="0.2"
+        android:text="Parelel Events"
+        android:textColor="@color/secondary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bluelinehome"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/hrzScroll2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bluelinehome">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgParelel1"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/paralel1"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgParelel2"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/paralel2"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgParelel3"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/paralel3"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgParelel4"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/paralel4"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgParelel5"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/paralel5"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

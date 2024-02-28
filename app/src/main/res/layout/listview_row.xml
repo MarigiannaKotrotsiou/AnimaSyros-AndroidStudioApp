@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+
+    <ImageView
+        android:id="@+id/rowContainer"
+        android:layout_width="360dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/rowcontainer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgEventrow"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+
+        android:src="@drawable/blue_box"
+        app:layout_constraintBottom_toBottomOf="@+id/rowContainer"
+        app:layout_constraintStart_toStartOf="@+id/rowContainer"
+        app:layout_constraintTop_toTopOf="@+id/rowContainer"
+        app:layout_constraintVertical_bias="0.516"
+        app:shapeAppearanceOverlay="@style/roundimageview" />
+
+    <TextView
+        android:id="@+id/txtEventTitlerow"
+        android:layout_width="207dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Event name"
+        android:textColor="@color/secondary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imgEventrow"
+        app:layout_constraintTop_toTopOf="@+id/rowContainer" />
+
+    <ImageView
+        android:id="@+id/imgDaterow"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rowContainer"
+        app:layout_constraintStart_toStartOf="@+id/txtEventTyperow"
+        app:srcCompat="@drawable/ic_date" />
+
+    <TextView
+        android:id="@+id/txtDaterow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="2022-09-25"
+        android:textColor="@color/secondary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgDaterow"
+        app:layout_constraintStart_toEndOf="@+id/imgDaterow"
+        app:layout_constraintTop_toTopOf="@+id/imgDaterow"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imgHeartrow"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rowContainer"
+        app:layout_constraintEnd_toEndOf="@id/rowContainer"
+        app:layout_constraintTop_toTopOf="@+id/rowContainer"
+        app:srcCompat="@drawable/ic_heartoutline" />
+
+    <ImageView
+        android:id="@+id/imgEventTyperow"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rowContainer"
+        app:layout_constraintStart_toEndOf="@+id/imgEventrow"
+        app:srcCompat="@drawable/ic_provoli" />
+
+    <TextView
+        android:id="@+id/txtEventTyperow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Προβολή"
+        android:textColor="@color/secondary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgEventTyperow"
+        app:layout_constraintStart_toEndOf="@+id/imgEventTyperow"
+        app:layout_constraintTop_toTopOf="@+id/imgEventTyperow"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
