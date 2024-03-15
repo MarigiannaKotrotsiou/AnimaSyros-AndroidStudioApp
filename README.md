@@ -3,7 +3,7 @@
 
 # Overview
 
-<p>The project is aimed at developing an Android Studio App for the annual festival AnimaSyros that takes place in Syros island. It serves as an assignment for the course "Design and Programming of Mobile Applications" of the Department of Products and Systems Engineering of Aegean University.</p>
+<p>The project is aimed at developing an Android Studio App for the annual festival AnimaSyros that takes place in Syros island. It serves as an assignment for the course "Design and Programming of Mobile Applications" of the Department of Products and Systems Engineering of University of the Aegean.</p>
 
 <p>That app has:</p>
 <p>Splash Screen</p>
